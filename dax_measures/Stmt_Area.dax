@@ -1,0 +1,4 @@
+stmnt_area = 
+VAR size_filter = SELECTEDVALUE('Private Rent Index'[House Size])
+VAR year_filter = SELECTEDVALUE('Private Rent Index'[Year])
+RETURN IF(ISBLANK(year_filter), "To rent a " & size_filter & " property:", "To rent a " & LOWER(size_filter) & " property in " & year_filter & ":")
