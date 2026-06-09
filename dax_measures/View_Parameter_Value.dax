@@ -1,0 +1,7 @@
+View Parameter Value = 
+    VAR __SelectedValue =
+        SELECTCOLUMNS (
+            SUMMARIZE ( _View, _View[View], _View[Parameter Fields] ),
+            _View[View]
+        )
+    RETURN IF ( COUNTROWS ( __SelectedValue ) = 1, __SelectedValue)
