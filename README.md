@@ -9,6 +9,8 @@ An end-to-end Power BI dashboard analysing the UK private rental market using of
 
 Watch the quick demo here: **[https://1drv.ms/v/c/370a9c539f5269d7/IQAs8Jix4TMsRZ81Ko3szZkVAZU_7ksKS9ixOoaoI-YTWJg?e=j5WEPG]**
 
+Note: Due to not having a Power Bi License, the demo is being shown on the desktop app so is not as smooth as it would be if it was published.
+
 ## Key Features & Technical Highlights
 
 This dashboard moves beyond standard drag-and-drop visuals, employing Power BI techniques to deliver an app-like experience:
